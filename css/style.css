@@ -33,6 +33,21 @@ html {
   font-size: 16px;
 }
 
+/* Logo Image Custom Styles */
+.nav-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  padding: 8px;
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
 body {
   background: var(--black);
   color: var(--white);
